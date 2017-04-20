@@ -9,7 +9,7 @@
     "MenuHoldTime": 1.0,
     "SilverlightConnectTimeout": 60000,
     "BaseClassName": "BaseWebAiiTest",
-    "UrlRecordMode": 1,
+    "UrlRecordMode": 2,
     "HighlightBorderColor": -65536,
     "HighlightBorderSize": 1,
     "CodeGenerationElementIdentificationType": 1,
@@ -163,7 +163,7 @@
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
     "SimulateRealSilverlightUserByDefault": true,
-    "DefaultDropDownSelection": 1,
+    "DefaultDropDownSelection": 2,
     "QuickExecutionElementWaitTimeout": 15000,
     "QuickExecutionClientReadyTimeout": 60000,
     "QcServerUrl": null,
@@ -187,8 +187,20 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "4edebfd1-55a8-491b-8cb0-e73627fddccb",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/Sourya18/Apptesting",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/Sourya18/Apptesting"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
@@ -207,7 +219,9 @@
     "Namespace": "Avasis_Test",
     "AssemblyName": "Avasis Test",
     "OutputFolder": "bin",
-    "ExcludedFiles": [],
+    "ExcludedFiles": [
+      "Login Tests\\Create Task Test.tstest"
+    ],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
     "BugTrackerPersistableSettings": {},

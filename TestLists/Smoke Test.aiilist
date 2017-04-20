@@ -66,8 +66,8 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "1e02cf53-2363-4922-afb4-042a91410bf9",
-          "Path": "Login Tests\\Create Task Test.tstest",
+          "Id": "89a5d784-72b4-40a8-b724-78e433099998",
+          "Path": "Login Tests\\Verify Task Add & Edit.tstest",
           "PathType": 0
         }
       }

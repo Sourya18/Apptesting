@@ -292,7 +292,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "9f086df5-2480-4165-9dbb-c416b75d208c",
-            "Description": "Click 'ActionItemsSpan'",
+            "Description": "Click 'Action item' menu",
             "CustomDescription": "Click 'Action item' menu",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -338,7 +338,7 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
                           "uniqueKey": "ysv8fCu+Mj2Ax/rU8+iueGUJSfQ=",
                           "NodeKind": 4,
@@ -433,7 +433,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Action Items - Schedule Permissions - AVASIS",
-                          "CompareMode": 1,
+                          "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "ActionItemsSchedule"
                         }
